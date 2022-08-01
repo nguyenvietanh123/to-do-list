@@ -1,0 +1,14 @@
+<main style="margin-top: 0">
+    <div class="container pt-4">
+        <div class="row content-box p-5" *ngFor="let u of week1">
+            <div class="col-4">
+                <h1>{{u.day}} : </h1>
+             </div>
+            <div class="col-8 row">
+                <p>{{u.morning}}</p>
+                <p>{{u.afternoon}}</p>
+                <p>{{u.evening}}</p>
+            </div>
+        </div>
+    </div>
+</main>
