@@ -1,0 +1,8 @@
+.footer {
+    z-index: 100;
+}
+
+.main {
+    margin-top: 50px;
+    min-height: 55vh;
+}

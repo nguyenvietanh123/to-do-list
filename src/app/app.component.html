@@ -1,22 +1,23 @@
-<header class="section">
-  <div class="row">
-    <div class="col-12">
-      <app-header></app-header>
-    </div>
-  </div>
-</header>
-<section class="section">
-  <div class="row">
-    <div class="col-2">
-      <app-sidebar></app-sidebar>
-    </div>
-    <div class="col-10">
-      <app-home></app-home>
-      <router-outlet></router-outlet>
-    </div>
-  </div>
-</section>
-<footer class="footer">
-  <div class="col-12">
-  </div>
-</footer>
+<div class="row body">
+    <header class="section">
+        <div class="row">
+            <div class="col-12">
+                <app-header></app-header>
+            </div>
+        </div>
+    </header>
+    <section class="section">
+        <div class="row main">
+            <div class="col-1">
+                <app-sidebar></app-sidebar>
+            </div>
+            <div class="col-11">
+                <app-home></app-home>
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <app-footer></app-footer>
+    </footer>
+</div>
